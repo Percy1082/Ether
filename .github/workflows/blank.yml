@@ -19,7 +19,7 @@ jobs:
   test:
     name: Ether
     # The type of runner that the job will run on
-    runs-on: ubuntu-latesest
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
